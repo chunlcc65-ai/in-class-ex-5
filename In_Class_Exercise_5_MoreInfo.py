@@ -53,7 +53,7 @@ if show_sector:
     # the second, third, and fourth arguments are some columns in the dataframe
     # the fifth argument specifies whether you want the bar chart to be horizontal.
 
-    st.bar_chart(ticker_info, x="Sector", y="Market Cap (B)", color="Sector", horizontal=True,
+    st.bar_chart(ticker_info, x="Market Cap (B)", y="Sector", color="Sector", horizontal=True,
             width=720, height=500)
 
 # display price and volme charts if stocks are selected; show error message otherwise
