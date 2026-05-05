@@ -60,7 +60,7 @@ if show_sector:
 # fill in the code below
 if selected_tickers:
     # show the header with using f-string
-    st.header(f"Prices & Volume for Selected Stocks")
+    st.header(f"Stock Trend Analysis (2025 - 2026)")
     # select the required data
     chart_data = stock_data.query(f"Date < {selected_years[1] + 1} and Date >= {selected_years[0]} and Ticker in {selected_tickers}")
  
