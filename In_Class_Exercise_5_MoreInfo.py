@@ -48,7 +48,7 @@ with st.sidebar:
 # a bar chart that visualizes the market cap of S&P 100 stocks by sector
 # fill in the code below
 if show_sector:
-    st.header("Market Capitalization by Sector")
+    st.header("Market Cap by Sector")
     # the first argument is a dataframe
     # the second, third, and fourth arguments are some columns in the dataframe
     # the fifth argument specifies whether you want the bar chart to be horizontal.
