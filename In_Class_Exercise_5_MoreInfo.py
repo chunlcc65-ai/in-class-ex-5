@@ -40,9 +40,9 @@ with st.sidebar:
     # the last argument should be the default value range
     selected_years = st.slider(
         "Select Year Range",
-        min_value=min_year,
-        max_value=max_year,
-        value=(min_year, max_year)
+        min_value=2020,
+        max_value=2026,
+        value=(2025, 2026)
     )
 
 # a bar chart that visualizes the market cap of S&P 100 stocks by sector
